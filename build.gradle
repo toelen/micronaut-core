@@ -110,6 +110,11 @@ ext {
                     group  : 'io.opentracing.brave',
                     name   : 'brave-opentracing'
             ],
+            datadog                    : [
+                    version: datadogVersion,
+                    group  : 'com.datadoghq',
+                    name   : 'dd-trace-ot'
+            ],
             'javax.annotation-api'     : [
                     version: javaxAnnotationApiVersion,
                     group  : 'javax.annotation',

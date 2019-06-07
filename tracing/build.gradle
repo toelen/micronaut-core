@@ -21,6 +21,7 @@ dependencies {
     compileOnly dependencyVersion("reactor")
     compileOnly dependencyVersion("rxjava1.interop")
 
+    compileOnly dependencyVersion("datadog")
 
     testCompile dependencyModuleVersion('micronaut.netflix', 'micronaut-netflix-hystrix'), {
         exclude group:"io.micronaut", module:'micronaut-runtime'
